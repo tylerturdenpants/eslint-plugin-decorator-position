@@ -3,5 +3,15 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'decorator-position/decorator-position': ['error'],
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        printWidth: 113,
+        semi: true,
+        trailingComma: 'es5',
+        quoteProps: 'preserve',
+      },
+    ],
   },
 };
