@@ -27,5 +27,9 @@ export class Foo {
   )
   myProp;
 
-  @hasMany('some-very-long-relationship-name-channel-context-chain', { async: true, inverse: 'members' }) memberOf;
+  @hasMany('some-very-long-relationship-name-channel-context-chain', {
+    async: true,
+    inverse: 'members',
+  })
+  memberOf;
 }
