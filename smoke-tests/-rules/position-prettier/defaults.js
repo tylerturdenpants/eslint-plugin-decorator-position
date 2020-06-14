@@ -26,4 +26,6 @@ export class Foo {
     'foo.bar.baz.someReallyLongPropertyNameThatIsTooLongToBeInlineOrItBreaksPrettier.Prettier.is.Set.to.100'
   )
   myProp;
+
+  @hasMany('some-very-long-relationship-name-channel-context-chain', { async: true, inverse: 'members' }) memberOf;
 }
