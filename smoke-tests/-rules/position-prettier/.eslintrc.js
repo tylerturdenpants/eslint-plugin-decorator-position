@@ -7,7 +7,7 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        printWidth: 110,
+        printWidth: 100,
         semi: true,
         trailingComma: 'es5',
         quoteProps: 'preserve',
