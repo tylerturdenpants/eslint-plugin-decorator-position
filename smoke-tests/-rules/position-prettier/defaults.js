@@ -22,6 +22,8 @@ export class Foo {
   @foo
   async myMethod3() {}
 
-  @alias('foo.bar.baz.someReallyLongPropertyNameThatIsTooLongToBeInlineOrItBreaksPrettier.Prettier.is.Set.to.100')
+  @alias(
+    'foo.bar.baz.someReallyLongPropertyNameThatIsTooLongToBeInlineOrItBreaksPrettier.Prettier.is.Set.to.100'
+  )
   myProp;
 }
